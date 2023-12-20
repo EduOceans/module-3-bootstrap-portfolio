@@ -22,7 +22,7 @@ To run the website locally, follow these steps:
 
 ## Usage
 
-You can have a look at the website [here](https://eduoceans.github.io/module-2-portfolio/)
+You can have a look at the website [here](https://eduoceans.github.io/bootstrap-portfolio/)
 
 ## License
 
