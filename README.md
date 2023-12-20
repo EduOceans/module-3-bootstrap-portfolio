@@ -1,4 +1,4 @@
-# Module-1-Accessibility
+# Bootstrap Portfolio
 ![EduOceans](https://img.shields.io/badge/Edu-Oceans-blue)
 
 Welcome to my portfolio repo, where you can have a look at my code and the ways I built my personal website.
@@ -15,9 +15,9 @@ To run the website locally, follow these steps:
 
 1. Clone the repository:
    ```
-   mkdir module-2
-   cd module-2
-   git clone git@github.com:EduOceans/module-2-portfolio.git
+   mkdir module-3
+   cd module-3
+   git clone git@github.com:EduOceans/bootstrap-portfolio.git
    ```
 
 ## Usage
