@@ -8,6 +8,13 @@
   <title>Eduardo Aller | Web Developer</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css" />
+  
+  <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+  <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+  
 </head>
 
 <body>
@@ -66,12 +73,12 @@
     <div class="row mx-5 justify-content-around">
       <div class="card-container col-lg-4 col-md-5 col-sm-12">
         <div class="card">
-          <img src="images/accessibility.jpg" class="card-img-top" alt="accessibility">
+          <img src="images/anouncement-background-img.jpeg" class="card-img-top" alt="suitestay-hotel">
         </div>
         <div class="card-title">
-          <h5>Accessibility</h5>
-          <p class="card-text">A project that improves accessibility on a website</p>
-          <a href="https://eduoceans.github.io/Module-1-Accesibility/" target="_new">Check it here</a>
+          <h5>Suitestay Hotel</h5>
+          <p class="card-text">A stunning hotel website. This was the final project I chose for the Bootcamp.</p>
+          <a href="https://suitestay.netlify.app/" target="_new">Check it here</a>
         </div>
       </div>
       <div class="card-container col-lg-4 col-md-5 col-sm-12">  
@@ -88,13 +95,14 @@
       </div>
       <div class="card-container col-lg-4 col-md-5 col-sm-12">
         <div class="card">
-          <img src="images/console.jpg" class="card-img-top" alt="console finances">
+          <img src="images/photo-music.png" class="card-img-top" alt="photo-music">
         </div>
         <div class="card-title">
-          <h5>Console Finances</h5>
+          <h5>Photo Music</h5>
           <p class="card-text">
-           A project that calculates your finances. Coming soon...
+           This was my first project for the Bootcamp where music and AI APIs came together. API currently inactive
           </p>
+          <a href="https://eduoceans.github.io/photo-music/" target="_new">Check it here</a>
         </div>
       </div>
     </div>
@@ -113,13 +121,26 @@
       </div>
       <div class="card-container col-lg-4 col-md-5 col-sm-12">
         <div class="card">
-          <img src="images/futsal.jpg" class="card-img-top" alt="futsal">
+          <img src="images/weather-search.png" class="card-img-top" alt="weather-search">
         </div>
         <div class="card-title">
-          <h5>Futsal</h5>
+          <h5>Weather Search</h5>
           <p class="card-text">
-            You can come on watch play futsal every Sunday at 6pm
+            You can check the weather anywhere around the world with my Weather Search App!
           </p>
+          <a href="https://eduoceans.github.io/weather-search/" target="_new">Check it here</a>
+        </div>
+      </div>
+      <div class="card-container col-lg-4 col-md-5 col-sm-12">
+        <div class="card">
+          <img src="images/password-generator.png" class="card-img-top" alt="password-generator">
+        </div>
+        <div class="card-title">
+          <h5>Password Generator</h5>
+          <p class="card-text">
+            You can create a unique Password with my Password generator App!
+          </p>
+          <a href="https://eduoceans.github.io/password-generator/" target="_new">Check it here</a>
         </div>
       </div>
     </div>
@@ -160,5 +181,8 @@
   
   <!-- JavaScript-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script>
+    var cursor = new MouseFollower();
+  </script>
 </body>
 </html>
